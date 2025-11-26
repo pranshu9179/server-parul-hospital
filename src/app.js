@@ -27,7 +27,8 @@ const allowedOrigins = [
   "http://127.0.0.1:5173",   // sometimes Vite uses 127.0.0.1
   "http://localhost:3000",   // CRA React
   "http://127.0.0.1:3000",   // CRA alternative
-  "https://www.yourdomain.com" // Live frontend
+  "https://www.yourdomain.com", // Live frontend
+  "https://frontend-parul-hospital-akyy.vercel.app/"
 ];
 
 app.use(
